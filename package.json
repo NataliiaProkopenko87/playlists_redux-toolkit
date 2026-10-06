@@ -22,15 +22,15 @@
   },
   "homepage": "https://github.com/NataliiaProkopenko87/playlists_redux-toolkit#readme",
   "dependencies": {
+    "@faker-js/faker": "^10.6.0",
     "@reduxjs/toolkit": "^2.13.0",
-    "bulma": "^latest-version-you-installed",
-    "@faker-js/faker": "^latest-version-you-installed",
+    "bulma": "^1.0.4",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-redux": "^9.3.0"
   },
   "devDependencies": {
-    "vite": "^your-version",
-    "@vitejs/plugin-react": "^your-version"
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.3"
   }
 }
