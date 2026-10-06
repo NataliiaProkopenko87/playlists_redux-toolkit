@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "test": "echo \"Error: no test specified\" && exit 1"
-}
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NataliiaProkopenko87/playlists_redux-toolkit.git"
@@ -22,11 +22,15 @@
   },
   "homepage": "https://github.com/NataliiaProkopenko87/playlists_redux-toolkit#readme",
   "dependencies": {
-    "@faker-js/faker": "^10.6.0",
     "@reduxjs/toolkit": "^2.13.0",
-    "bulma": "^1.0.4",
+    "bulma": "^latest-version-you-installed",
+    "@faker-js/faker": "^latest-version-you-installed",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-redux": "^9.3.0"
+  },
+  "devDependencies": {
+    "vite": "^your-version",
+    "@vitejs/plugin-react": "^your-version"
   }
 }
